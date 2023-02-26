@@ -1,0 +1,216 @@
+Program state with ID: 1
+Execution stack:
+{(reference(int) v; (new(v, 20); (print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5)))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(new(v, 20); (print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5)))) | reference(int) v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(new(v, 20); (print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5)))) | reference(int) v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(new(v, 20); (print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5))))}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(new(v, 20); (print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5))))}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5))) | new(v, 20)}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5))) | new(v, 20)}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5)))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(print(readHeap(v)); (writeHeap(v, 30); print(readHeap(v) + 5)))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(writeHeap(v, 30); print(readHeap(v) + 5)) | print(readHeap(v))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(writeHeap(v, 30); print(readHeap(v) + 5)) | print(readHeap(v))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(writeHeap(v, 30); print(readHeap(v) + 5))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{(writeHeap(v, 30); print(readHeap(v) + 5))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{print(readHeap(v) + 5) | writeHeap(v, 30)}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{print(readHeap(v) + 5) | writeHeap(v, 30)}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{print(readHeap(v) + 5)}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 30}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{print(readHeap(v) + 5)}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20}
+Heap:
+{1 -> 30}
+File table:
+{}
+
+Program state with ID: 1
+Execution stack:
+{}
+Symbol table:
+{v -> (1, int)}
+Output:
+{20, 35}
+Heap:
+{1 -> 30}
+File table:
+{}
+

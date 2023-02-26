@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.antoniacatrinel.interpreter.GUI.MainWindowController">
+    <VBox alignment="CENTER">
+        <HBox alignment="TOP_CENTER">
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+            <Label fx:id="noOfProgramStatesLabel" alignment="CENTER" lineSpacing="1.0" text="Number of program states:" textAlignment="CENTER">
+                <font>
+                    <Font name="Arial" size="14.0" />
+                </font>
+                <padding>
+                    <Insets right="4.0" top="2.0" />
+                </padding>
+            </Label>
+        </HBox>
+        <HBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+                <Insets left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+                <Label text="ProgramState IDs">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <ListView fx:id="programStateIDListView" VBox.vgrow="ALWAYS" />
+            </VBox>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets left="5.0" right="5.0" />
+                </HBox.margin>
+                <Label text="Execution Stack">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <ListView fx:id="executionStackListView" VBox.vgrow="ALWAYS" />
+            </VBox>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+                <Label text="Symbol Table">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <TableView fx:id="symbolTableView" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="symbolTableName" editable="false" prefWidth="89.0" text="Name" />
+                        <TableColumn fx:id="symbolTableValue" editable="false" prefWidth="115.33331298828125" text="Value" />
+                    </columns>
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </TableView>
+            </VBox>
+        </HBox>
+        <HBox alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+            <VBox.margin>
+                <Insets left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets />
+                </HBox.margin>
+                <Label text="Output">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <ListView fx:id="outputListView" VBox.vgrow="ALWAYS" />
+            </VBox>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <HBox.margin>
+                    <Insets left="5.0" right="5.0" />
+                </HBox.margin>
+                <Label text="Heap">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <TableView fx:id="heapTableView" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="heapTableAddress" editable="false" prefWidth="107.99996948242188" text="Address" />
+                        <TableColumn fx:id="heapTableValue" editable="false" prefWidth="93.0" text="Value" />
+                    </columns>
+                </TableView>
+            </VBox>
+            <VBox alignment="TOP_CENTER" HBox.hgrow="ALWAYS">
+                <Label text="Files">
+                    <font>
+                        <Font name="Arial" size="12.0" />
+                    </font>
+                    <VBox.margin>
+                        <Insets bottom="4.0" />
+                    </VBox.margin>
+                </Label>
+                <ListView fx:id="fileTableListView" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </ListView>
+            </VBox>
+        </HBox>
+        <Button fx:id="execButton" alignment="CENTER" minHeight="-Infinity" mnemonicParsing="false" onMouseClicked="#runOneStep" prefHeight="32.0" text="One Step Execution">
+            <font>
+                <Font name="Arial" size="12.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="10.0" top="10.0" />
+            </VBox.margin>
+        </Button>
+    </VBox>
+</StackPane>

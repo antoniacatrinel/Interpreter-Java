@@ -1,0 +1,348 @@
+Program state with ID: 4
+Execution stack:
+{(int v; (v = 0; (while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10)))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(v = 0; (while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10)))) | int v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(v = 0; (while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10)))) | int v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(v = 0; (while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10))))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(v = 0; (while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10))))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10))) | v = 0}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10))) | v = 0}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10)))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}; (sleep(5); print(v * 10)))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | (fork((print(v); v = v + 1)); v = v + 1)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | (fork((print(v); v = v + 1)); v = v + 1)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | v = v + 1 | fork((print(v); v = v + 1))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | v = v + 1 | fork((print(v); v = v + 1))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | v = v + 1}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(print(v); v = v + 1)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | v = v + 1}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(print(v); v = v + 1)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}}
+Symbol table:
+{v -> 1}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{v = v + 1 | print(v)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)}}
+Symbol table:
+{v -> 1}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{v = v + 1 | print(v)}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | (fork((print(v); v = v + 1)); v = v + 1)}
+Symbol table:
+{v -> 1}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{v = v + 1}
+Symbol table:
+{v -> 0}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | (fork((print(v); v = v + 1)); v = v + 1)}
+Symbol table:
+{v -> 1}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{v = v + 1}
+Symbol table:
+{v -> 0}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(sleep(5); print(v * 10)) | while(v < 3) {(fork((print(v); v = v + 1)); v = v + 1)} | v = v + 1 | fork((print(v); v = v + 1))}
+Symbol table:
+{v -> 1}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{}
+Symbol table:
+{v -> 1}
+Output:
+{0}
+Heap:
+{}
+File table:
+{}
+
