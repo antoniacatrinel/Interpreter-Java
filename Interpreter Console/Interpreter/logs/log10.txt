@@ -1,0 +1,552 @@
+Program state with ID: 10
+Execution stack:
+{(int v; (v = 4; (while(v > 0) {(print(v); v = v - 1)}; print(v))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(v = 4; (while(v > 0) {(print(v); v = v - 1)}; print(v))) | int v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(v = 4; (while(v > 0) {(print(v); v = v - 1)}; print(v))) | int v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(v = 4; (while(v > 0) {(print(v); v = v - 1)}; print(v)))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(v = 4; (while(v > 0) {(print(v); v = v - 1)}; print(v)))}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(while(v > 0) {(print(v); v = v - 1)}; print(v)) | v = 4}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(while(v > 0) {(print(v); v = v - 1)}; print(v)) | v = 4}
+Symbol table:
+{v -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(while(v > 0) {(print(v); v = v - 1)}; print(v))}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{(while(v > 0) {(print(v); v = v - 1)}; print(v))}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 4}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 4}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 4}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 3}
+Output:
+{4}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 3}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 3}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 2}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | (print(v); v = v - 1)}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1 | print(v)}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)} | v = v - 1}
+Symbol table:
+{v -> 1}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 0}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v) | while(v > 0) {(print(v); v = v - 1)}}
+Symbol table:
+{v -> 0}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v)}
+Symbol table:
+{v -> 0}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{print(v)}
+Symbol table:
+{v -> 0}
+Output:
+{4, 3, 2, 1}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 10
+Execution stack:
+{}
+Symbol table:
+{v -> 0}
+Output:
+{4, 3, 2, 1, 0}
+Heap:
+{}
+File table:
+{}
+

@@ -1,0 +1,264 @@
+Program state with ID: 7
+Execution stack:
+{(reference(int) v; (new(v, 20); (reference(reference(int)) a; (new(a, v); (print(v); print(a))))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(v, 20); (reference(reference(int)) a; (new(a, v); (print(v); print(a))))) | reference(int) v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(v, 20); (reference(reference(int)) a; (new(a, v); (print(v); print(a))))) | reference(int) v}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(v, 20); (reference(reference(int)) a; (new(a, v); (print(v); print(a)))))}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(v, 20); (reference(reference(int)) a; (new(a, v); (print(v); print(a)))))}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(reference(reference(int)) a; (new(a, v); (print(v); print(a)))) | new(v, 20)}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(reference(reference(int)) a; (new(a, v); (print(v); print(a)))) | new(v, 20)}
+Symbol table:
+{v -> (0, int)}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(reference(reference(int)) a; (new(a, v); (print(v); print(a))))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(reference(reference(int)) a; (new(a, v); (print(v); print(a))))}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(a, v); (print(v); print(a))) | reference(reference(int)) a}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(a, v); (print(v); print(a))) | reference(reference(int)) a}
+Symbol table:
+{v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(a, v); (print(v); print(a)))}
+Symbol table:
+{a -> (0, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(new(a, v); (print(v); print(a)))}
+Symbol table:
+{a -> (0, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(print(v); print(a)) | new(a, v)}
+Symbol table:
+{a -> (0, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(print(v); print(a)) | new(a, v)}
+Symbol table:
+{a -> (0, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(print(v); print(a))}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{(print(v); print(a))}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{print(a) | print(v)}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{print(a) | print(v)}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{print(a)}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{(1, int)}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{print(a)}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{(1, int)}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+
+Program state with ID: 7
+Execution stack:
+{}
+Symbol table:
+{a -> (2, reference(int)), v -> (1, int)}
+Output:
+{(1, int), (2, reference(int))}
+Heap:
+{1 -> 20, 2 -> (1, int)}
+File table:
+{}
+

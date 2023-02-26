@@ -1,0 +1,408 @@
+Program state with ID: 4
+Execution stack:
+{(string varf; (varf = "resources/test.in"; (open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(varf = "resources/test.in"; (open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))))) | string varf}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(varf = "resources/test.in"; (open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))))) | string varf}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(varf = "resources/test.in"; (open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))))}
+Symbol table:
+{varf -> ""}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(varf = "resources/test.in"; (open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))))}
+Symbol table:
+{varf -> ""}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))) | varf = "resources/test.in"}
+Symbol table:
+{varf -> ""}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))) | varf = "resources/test.in"}
+Symbol table:
+{varf -> ""}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))))}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(open read file(varf); (int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))))}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))) | open read file(varf)}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))) | open read file(varf)}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 4
+Execution stack:
+{(int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(int varc; (read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))))}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))) | int varc}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf))))) | int varc}
+Symbol table:
+{varf -> "resources/test.in"}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); (read file(varf, varc); (print(varc); close read file(varf)))))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); (read file(varf, varc); (print(varc); close read file(varf)))) | read file(varf, varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); (read file(varf, varc); (print(varc); close read file(varf)))) | read file(varf, varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); (read file(varf, varc); (print(varc); close read file(varf))))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); (read file(varf, varc); (print(varc); close read file(varf))))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); close read file(varf))) | print(varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); close read file(varf))) | print(varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); close read file(varf)))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(read file(varf, varc); (print(varc); close read file(varf)))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); close read file(varf)) | read file(varf, varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); close read file(varf)) | read file(varf, varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 15}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); close read file(varf))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{(print(varc); close read file(varf))}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{close read file(varf) | print(varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{close read file(varf) | print(varc)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{close read file(varf)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15, 50}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{close read file(varf)}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15, 50}
+Heap:
+{}
+File table:
+{resources/test.in -> java.io.BufferedReader@7d6f77cc}
+
+Program state with ID: 4
+Execution stack:
+{}
+Symbol table:
+{varf -> "resources/test.in", varc -> 50}
+Output:
+{15, 50}
+Heap:
+{}
+File table:
+{}
+

@@ -1,0 +1,240 @@
+Program state with ID: 5
+Execution stack:
+{(int a; (int b; (a = 1; (if(a > 1) then b = 200, else b = 100; print(b)))))}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(int b; (a = 1; (if(a > 1) then b = 200, else b = 100; print(b)))) | int a}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(int b; (a = 1; (if(a > 1) then b = 200, else b = 100; print(b)))) | int a}
+Symbol table:
+{}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(int b; (a = 1; (if(a > 1) then b = 200, else b = 100; print(b))))}
+Symbol table:
+{a -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(int b; (a = 1; (if(a > 1) then b = 200, else b = 100; print(b))))}
+Symbol table:
+{a -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(a = 1; (if(a > 1) then b = 200, else b = 100; print(b))) | int b}
+Symbol table:
+{a -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(a = 1; (if(a > 1) then b = 200, else b = 100; print(b))) | int b}
+Symbol table:
+{a -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(a = 1; (if(a > 1) then b = 200, else b = 100; print(b)))}
+Symbol table:
+{a -> 0, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(a = 1; (if(a > 1) then b = 200, else b = 100; print(b)))}
+Symbol table:
+{a -> 0, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(if(a > 1) then b = 200, else b = 100; print(b)) | a = 1}
+Symbol table:
+{a -> 0, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(if(a > 1) then b = 200, else b = 100; print(b)) | a = 1}
+Symbol table:
+{a -> 0, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(if(a > 1) then b = 200, else b = 100; print(b))}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{(if(a > 1) then b = 200, else b = 100; print(b))}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b) | if(a > 1) then b = 200, else b = 100}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b) | if(a > 1) then b = 200, else b = 100}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b) | b = 100}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b) | b = 100}
+Symbol table:
+{a -> 1, b -> 0}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b)}
+Symbol table:
+{a -> 1, b -> 100}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{print(b)}
+Symbol table:
+{a -> 1, b -> 100}
+Output:
+{}
+Heap:
+{}
+File table:
+{}
+
+Program state with ID: 5
+Execution stack:
+{}
+Symbol table:
+{a -> 1, b -> 100}
+Output:
+{100}
+Heap:
+{}
+File table:
+{}
+
