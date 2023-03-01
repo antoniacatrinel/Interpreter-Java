@@ -9,4 +9,4 @@
 A console-driven application that allows users to run and display step-by-step execution of pre-made programs.
 
 ### [Interpreter JavaFX](Interpreter%20JavaFX)
-A GUI application created using JavaFX that expands on the console application.
+A application created using JavaFX that expands on the console version with a GUI and some additonal functionalities.
